@@ -45,12 +45,12 @@ if "1" in menu:
 	if requests.get(terget+"/wp-content/").status_code ==200:
 		print(G+"(+) Wordpress Detected."+N)
 		print(G+"(+) Output: result.txt"+N)
-		y=open("wordlist/wplist.txt").read().splitlines()
+		y=open("wplist.txt").read().splitlines()
 		nums=len(y)
 		p.map(one,y)
 	else:
 		print(G+"(+) Output: result.txt"+N)
-		y=open("wordlist/randomlist.txt").read().splitlines()
+		y=open("randomlist.txt").read().splitlines()
 		nums=len(y)
 		p.map(one,y)
 elif "2" in menu:
