@@ -10,6 +10,7 @@ pkg install nmap -y
 pkg install openssh -y
 pip2 install sqlmap
 pip2 install requests
+git clone https://github.com/LOoLzeC/SH33LL
 git clone https://github.com/hahwul/XSpear
 cd XSpear
 gem install XSpear-1.4.1.gem
