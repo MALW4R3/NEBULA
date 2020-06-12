@@ -10,6 +10,14 @@ pkg install nmap -y
 pkg install openssh -y
 pip2 install sqlmap
 pip2 install requests
+mv update-nebula /data/data/com.termux/files/usr/bin
+cd
+cd ..
+cd usr
+cd bin
+chmod +x update-nebula
+cd
+cd NEBULA
 git clone https://github.com/LOoLzeC/SH33LL
 git clone https://github.com/hahwul/XSpear
 cd XSpear
