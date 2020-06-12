@@ -49,6 +49,7 @@ print
 time.sleep(3)
 os.system('figlet -f mono9 SPID3R | lolcat')
 time.sleep(3)
+os.system('cd SH33LL')
 os.system('python2 sh33l.py')
 print
 print
