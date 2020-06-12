@@ -1,0 +1,3 @@
+#!/bin/bash
+cd $HOME/NEBULA
+sh update-nebula.sh
