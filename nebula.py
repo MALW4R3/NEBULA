@@ -40,7 +40,7 @@ print ('do you want to connect ssh ? [y/n]')
 E = input("SELECT : ")
 
 if  E == "y" or E == "yes":
-     os.system("ssh root@%s"%(PASS, nmap))
+     os.system("ssh root@%s"%(nmap))
 print
 print
 print ('finished secure shell hacking')
